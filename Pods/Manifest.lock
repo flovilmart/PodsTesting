@@ -1,0 +1,29 @@
+PODS:
+  - Intercom (2.0.6)
+  - PaymentKit (1.1.1)
+  - SDWebImage (3.7.1):
+    - SDWebImage/Core (= 3.7.1)
+  - SDWebImage/Core (3.7.1)
+  - Stripe (2.2.2):
+    - Stripe/Core (= 2.2.2)
+  - Stripe/Core (2.2.2)
+  - SVProgressHUD (HEAD based on 1.0)
+  - ViewDeck (2.2.11)
+
+DEPENDENCIES:
+  - Intercom
+  - PaymentKit
+  - SDWebImage
+  - Stripe
+  - SVProgressHUD (HEAD)
+  - ViewDeck (~> 2.2.11)
+
+SPEC CHECKSUMS:
+  Intercom: e3da0bc01c5aa31a01c215baebba6c3bb7705af5
+  PaymentKit: f77b4d5cee45947949429c3d587e8eb160a3c9e2
+  SDWebImage: 116e88633b5b416ea0ca4b334a4ac59cf72dd38d
+  Stripe: c9484104b577a9ae0aa275614640b2ee7b9f92f5
+  SVProgressHUD: 5034c6e22b8c2ca3e09402e48d41ed0340aa1c50
+  ViewDeck: 2f38c054dfe8e69af4877c006785996faa277902
+
+COCOAPODS: 0.35.0

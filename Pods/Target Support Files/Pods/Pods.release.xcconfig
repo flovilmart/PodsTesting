@@ -1,0 +1,8 @@
+FRAMEWORK_SEARCH_PATHS = "$PODS_FRAMEWORK_BUILD_PATH"
+GCC_PREPROCESSOR_DEFINITIONS = $(inherited) COCOAPODS=1
+LIBRARY_SEARCH_PATHS = "$(PODS_ROOT)/Intercom/Intercom"
+OTHER_CFLAGS = $(inherited) -iquote "$PODS_FRAMEWORK_BUILD_PATH/Intercom.framework/Headers" -iquote "$PODS_FRAMEWORK_BUILD_PATH/PaymentKit.framework/Headers" -iquote "$PODS_FRAMEWORK_BUILD_PATH/SDWebImage.framework/Headers" -iquote "$PODS_FRAMEWORK_BUILD_PATH/SVProgressHUD.framework/Headers" -iquote "$PODS_FRAMEWORK_BUILD_PATH/Stripe.framework/Headers" -iquote "$PODS_FRAMEWORK_BUILD_PATH/ViewDeck.framework/Headers"
+OTHER_LDFLAGS = -ObjC -l"Intercom" -framework "AVFoundation" -framework "CoreGraphics" -framework "Foundation" -framework "ImageIO" -framework "Intercom" -framework "MobileCoreServices" -framework "PaymentKit" -framework "QuartzCore" -framework "SDWebImage" -framework "SVProgressHUD" -framework "Security" -framework "Stripe" -framework "SystemConfiguration" -framework "UIKit" -framework "ViewDeck"
+OTHER_LIBTOOLFLAGS = $(OTHER_LDFLAGS)
+PODS_FRAMEWORK_BUILD_PATH = $(BUILD_DIR)/$(CONFIGURATION)$(EFFECTIVE_PLATFORM_NAME)/Pods
+PODS_ROOT = ${SRCROOT}/Pods
